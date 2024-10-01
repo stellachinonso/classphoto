@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Photo App</title>
+  </head>
+  <body>
+    <body>
+      <main>
+        <h1>ClassPhotoApp</h1>
+        <section>
+          <h2>Class Photos</h2>
+          <!-- TODO: Add link to class photos -->
+          <p>See more <a target="_blank" href="https://sonrisasacademy.com">class photos</a> in our gallery.</p>
+          <a href="https://sonrisasacademy.com"><img src="./pictures/amala.jpg" alt="Amala"></a>
+        </section>
+        <section>
+          <h2>Class Lists</h2>
+          <h3>Names of people in my class:</h3>
+          <ul>
+            <li>Ijeoma</li>
+            <li>Anthony</li>
+            <li>Fernanda</li>
+            <li>Amala</li>
+            <li>Uriel</li>
+          </ul>
+          <figure>
+            <img src="./pictures/anthony.jpg" alt="Anthony">
+            <figcaption>My classmates <em>love</em> to collaborate.</figcaption>  
+          </figure>
+          <h3>Top 3 things my classmates hate:</h3>
+          <ol>
+            <li>Coming to class late</li>
+            <li>Making noise in class</li>
+            <li>No paying attention in class</li>
+          </ol>
+          <figure>
+            <img src="./pictures/fernanda.jpg" alt="Fernanda">
+            <figcaption>My class <strong>mate</strong> love one another.</figcaption>  
+          </figure>
+          <figure></figure>
+            <img src="./pictures/ije1.jpg" alt="Fernanda">
+            <figcaption>My class <strong>mate</strong> love one another.</figcaption>  
+          </figure>
+        </section>
+        <section>
+          <h2>Class Form</h2>
+          <form action="https://sonrisasacademy.com">
+            <fieldset>
+              <legend>Does your classmate like staying in the house or they like going out?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            </fieldset>
+            <fieldset>
+              <legend>What's your class mate's personality?</legend>
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+              <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
+            <input type="text" name="catphotourl" placeholder="class photo URL" required>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>
+          No Copyright - <a href="https://www.sonrisasacademy.com">Sonrisas Academy</a>
+        </p>
+      </footer>
+    </body>
+  </html>
+  </body>
+</html>
